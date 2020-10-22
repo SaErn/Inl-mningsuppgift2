@@ -4,14 +4,12 @@ html {
     }
     
 body { 
-    /*font: 75% arial, sans-serif;*/
     font-family: "Bookman Old Style";
     line-height: 2;
     color: #110B11; 
     background-color: #F2F4CD;
     margin: 0; 
     padding: 0;
-    
     display: flex;
     align-items: center;
     }
@@ -40,12 +38,10 @@ p {
 
 .summary{
     background-color: #F2F4CB;
-    
     width: 210px;
     padding:20px;
     padding-left: 5px;
     margin-left: 75px;
-    
 }
 
 .summary p{
@@ -53,7 +49,6 @@ p {
     font-weight: bolder;
     text-align: center;
     border: none;
-    
 }
 
 .preamble p{
@@ -101,17 +96,16 @@ h1{
 }
 
 h2{
+    margin-bottom: 20px;
     margin-top: 0px;
     border-bottom-left-radius: 4px;
     font-size: 90%;
     padding-top: 0px;
     padding-bottom: 40px;
-    margin-bottom: 20px;
     padding-left: 20px;
 }
 
 h3 { 
-    /*font: italic normal 1.4em arial, sans-serif;*/
     font-family: "Bookman Old Style";
     letter-spacing: 3px; 
     margin-bottom: 0; 
@@ -136,9 +130,6 @@ h3 {
     text-decoration: underline; 
     color: #9685BA;
     }
-
-
-
 
 .sidebar {
     margin-left: 500px;
@@ -211,5 +202,5 @@ footer a:hover, a:focus, a:active {
     text-decoration: underline; 
     color: #9685BA;
     }
-/*EGNA SELEKTORER*/
+
 
