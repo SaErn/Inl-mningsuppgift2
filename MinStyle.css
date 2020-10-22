@@ -1,0 +1,215 @@
+html {
+	margin: 0;
+	padding: 0;
+    }
+    
+body { 
+    /*font: 75% arial, sans-serif;*/
+    font-family: "Bookman Old Style";
+    line-height: 2;
+    color: #110B11; 
+    background-color: #F2F4CD;
+    margin: 0; 
+    padding: 0;
+    
+    display: flex;
+    align-items: center;
+    }
+
+.page-wrapper{
+    margin: 10px;
+    background: #A5D0A8 url(https://lh3.googleusercontent.com/proxy/dKOWHTBJTaYGMJ-8lpcuWbDy9M7LhGxpUSRx7TE8GShS15CvkdcoXsQ88urvZOsQe43nhQLC3iCSofQGZ2y_kUJgjHGKVBvUwXRLIT5c5JBdT4xhzr1Fldk4qqWAMCs3X8dGal_17sv7ZTb5QVbIX7a5mw) no-repeat bottom right;
+    background-size: 70%;
+    background-attachment: fixed;
+}
+
+p { 
+    margin-top: 0; 
+    margin-left: 15px;
+    text-align: justify;
+    background-color: #F2F4CB;
+    opacity: 0.7;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-width: 1px 5px 9px 3px;
+	border-style: solid;
+	border-color: #cab247 #cab247 wheat wheat;
+    }
+
+.summary{
+    background-color: #F2F4CB;
+    
+    width: 210px;
+    padding:20px;
+    padding-left: 5px;
+    margin-left: 75px;
+    
+}
+
+.summary p{
+    font-family: "Palatino Linotype";
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    
+}
+
+.preamble p{
+    width: 60%;
+}
+
+.supporting p{
+    width: 70%;
+}
+
+.explanation p{
+    width: 67%;
+}
+
+.explanation p:nth-child(2){
+    width: 64%;
+}
+
+.benefits p{
+    width: 75%;
+}
+
+.requirements p{
+    width: 80%;
+}
+
+h1, h2{
+    background-color: #110B11;
+    color: #B7990D; 
+    padding: 7px;
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.2;
+}
+
+h1{
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+h2{
+    margin-top: 0px;
+    border-bottom-left-radius: 4px;
+    font-size: 90%;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+h3 { 
+    /*font: italic normal 1.4em arial, sans-serif;*/
+    font-family: "Bookman Old Style";
+    letter-spacing: 3px; 
+    margin-bottom: 0; 
+    color: #7D775C;
+    padding: 8px;
+    padding-left: 25px;
+    }
+
+.sidebar a:link { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #8CADA7;
+    }
+
+.sidebar a:visited { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #D4CDDC;
+    }
+
+.sidebar a:hover, a:focus, a:active { 
+    text-decoration: underline; 
+    color: #9685BA;
+    }
+
+
+
+
+.sidebar {
+    margin-left: 500px;
+    position: absolute; 
+    top: 45px; 
+    right: 20px;
+    background-color: #110B11;
+    color: aqua;
+    border-radius: 4px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    
+    }
+
+
+
+.sidebar ul {
+	margin: 0;
+    padding: 5px;
+    padding-left: 25px;
+	}
+
+
+.sidebar a{
+    display: block;
+}
+.sidebar a:link{
+    color: #F2F4CB;
+}
+
+.sidebar h3{
+    text-align: center;
+}
+
+.design-selection li{
+    position: relative;
+    padding: 0px;
+    line-height: 1.3;
+    margin-bottom: 40px;
+    text-align: center;
+    display: block;
+    list-style-type: none;
+}
+
+.design-archives li{
+    margin-left: 40px;
+}
+
+.zen-resources li{
+    margin-left: 40px;
+}
+
+footer{
+    text-align: left;
+    padding: 20px;
+    padding-left: 50px;
+    
+}
+
+footer a{
+    margin-right: 20px;
+}
+
+footer a:link{
+   color: #110B11; 
+   text-decoration: none;
+}
+
+footer a:hover, a:focus, a:active { 
+    text-decoration: underline; 
+    color: #9685BA;
+    }
+/*EGNA SELEKTORER*/
+
